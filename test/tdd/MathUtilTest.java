@@ -22,6 +22,6 @@ public class MathUtilTest {
     
     @Test(expected = IllegalArgumentException.class)
     public void TestFailedCase(){
-        MathUtil.computeFactorial(1);
+        MathUtil.computeFactorial(-1);
     }
 }
