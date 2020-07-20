@@ -18,6 +18,7 @@ public class MathUtils {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         System.out.println("6! = " + computeFactorial(6));
         //
     }
